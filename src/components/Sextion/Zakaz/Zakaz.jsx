@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './zakaz.css';
+import './Zakaz.css';
 
 const ZakazlarModal = ({ items, onClose, onDelete, onEdit }) => {
   const [editingId, setEditingId] = useState(null);
