@@ -1,0 +1,8 @@
+#Header{
+    z-index: -999;
+    padding-top: 80px;
+    position: relative;
+}
+.text{
+    font-family: 'Dancing Script';
+}

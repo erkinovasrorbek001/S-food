@@ -1,0 +1,30 @@
+.Footer__link {
+    color: #fff;
+    font-family: 'Dancing Script';
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    position: relative; 
+    text-decoration: none; 
+}
+.Footer__logo{
+    font-family: 'Dancing Script';
+}
+
+.Footer__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-40%);
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 755ms ease-in-out; 
+}
+
+.Footer__link:hover::after {
+    width:100%;
+}

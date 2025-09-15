@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Unbounded:wght@200..900&display=swap');
+.logo__img{
+    color: #8a2be2;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px
+}
+.Wrapper__link {
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    position: relative; 
+    text-decoration: none; 
+}
+
+.Wrapper__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-40%);
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 755ms ease-in-out; 
+}
+
+.Wrapper__link:hover::after {
+    width: 86%;
+}
+
+.Wrapper__button{
+    font-family: 'Dancing Script';
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  
+}
+.Wrapper__nav{
+ 
+    z-index: 10;
+}
+.Wrapper{
+      /* box-shadow: 0 2px 8px rgba(0,0,0,0.15); */
+      z-index: -10;
+      background: #fff;
+}

@@ -1,0 +1,17 @@
+.Contacts__text{
+ font-family: 'Dancing Script';
+}
+.Contacts__title{
+    
+ font-family: 'Dancing Script';
+ font-weight: 700;
+}
+.Contacts__text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.Contacts_text{
+   font-family: 'Dancing Script';
+ font-weight: 400;  
+}
